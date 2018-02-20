@@ -1,0 +1,279 @@
+
+
+.graffiti{
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 0em;
+	/*background-image: url("../img/olga-leticia.jpg");*/
+	background-size: 120%;
+	color: #fff;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
+	background-color: rgba(218, 221, 237, 0.5);
+	grid-column: 2/7;
+}
+
+.home{
+	font-size: 1.5em;
+}
+
+.header{
+	font-family: 'Permanent Marker';
+	font-size: 4.2em;
+	letter-spacing: 5px;
+	padding: 0.4em;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+body{
+	background-image: url("../img/jon-moore.jpg");
+	/*background-color: black;*/
+	background-size: 140%;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	text-align: left;
+}
+
+/* home page boxes and links*/
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+
+
+.box{
+	border: 2px #fff solid;
+	padding: 2em;
+	margin: 1.2em;
+	border-radius: 20px;
+	font-weight: bolder;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 28px;
+}
+
+.header{
+	grid-column: 1/8;
+	text-align: center;
+	letter-spacing: 1.2em;
+}
+.uses{
+	grid-column: 2/3;
+	background-size: 150%;
+	background-image: url(../img/patrick-tomasso.jpg);
+	text-align: center;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.contemporary{
+	grid-column: 4/5;
+	background-image: url(../img/cris-dinoto.jpg);
+	background-size: 115%;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.characteristics{
+	grid-column: 6/7;
+	background-image: url(../img/chris-barbalis.jpg);
+	background-size: 150%;
+	background-repeat:no-repeat;
+	text-align: center;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.global{
+	grid-column: 2/3;
+	background-image:url(../img/igor-ovsyannykov.jpg);
+	background-size: 130%;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.politics{
+	grid-column: 4/5;
+	background-size: 150%;
+	background-image: url(../img/marl-clevenger.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.street__art{
+	grid-column: 6/7;
+	background-image: url(../img/toa-heftiba.jpg);
+	background-size: 150%;
+	background-repeat: no-repeat;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+/*end of home page grid*/
+
+/*page links start here, text of wikipedia page*/
+
+h1{
+	color:black;
+	text-align: center;
+}
+
+h2{
+	color:black;
+	text-align: center;
+}
+
+.uses_page{
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+.contemporary_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+.characteristics_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	background-color: rgba(10, 36, 68, 0.6);
+}
+
+/* global page*/
+
+
+.global_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+}
+
+.globalheader{
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 5px;
+}
+
+.map{
+	padding: 4em;
+	margin: 1.6em;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 0.125rem;
+	background-image: url(../img/earth-map.jpg);
+	background-size: 1300px 650px;
+}
+
+.mapbox{
+	border: 2px #fff solid;
+	padding: 4em;
+	margin: 1.6em;
+	border-radius: 20px;
+}
+
+.northamerica{
+	grid-column: 2/3;
+	text-align: center;
+}
+
+.europe{
+	grid-column: 4/5;
+	text-align: center;
+}
+
+.asia{
+	grid-column: 6/7;
+	text-align: center;
+}
+
+.southamerica{
+	grid-column: 2/3;
+	text-align: center;
+}
+
+.africa{
+	grid-column: 4/5;
+	text-align: center;
+}
+
+.australianz{
+	grid-column: 6/7;
+	text-align: center;
+}
+
+/*end global page*/
+
+.streetart_page{
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	size: 20px;
+	background: rgba(4, 11, 48, 0.6);
+}
